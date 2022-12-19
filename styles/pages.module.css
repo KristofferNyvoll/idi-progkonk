@@ -1,0 +1,27 @@
+.section {
+  min-height: 100vh;
+  align-items: center;
+  background-color: white;
+}
+
+.title {
+  padding: 2rem;
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.description {
+  position: flex;
+  flex-direction: row;
+  min-height: 40vh;
+  padding: 2rem;
+}
+
+.logo {
+  width: 40%;
+}
+
+.nextCompetition {
+  padding: 2rem;
+  background-color: whitesmoke;
+}

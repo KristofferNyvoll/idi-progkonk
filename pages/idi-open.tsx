@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../styles/pages.module.css";
+import styles from "../styles/styling.module.css";
 import RegistrationForm from "../components/RegistrationForm";
 import Image from "next/image";
 import Title from "../components/Title";

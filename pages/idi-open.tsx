@@ -1,24 +1,25 @@
 import { useState } from "react";
 import styles from "../styles/pages.module.css";
 import RegistrationForm from "../components/RegistrationForm";
-import Button from "../components/Button";
 import Image from "next/image";
 import Title from "../components/Title";
+import UpcomingCompetition from "../components/UpcomingComp";
 
 export default function IDIOpen() {
   const [registrationOpen, setRegistrationOpen] = useState(true);
-
+  // Fetch data pertaining to IDI Open
   return (
     <section className={styles.section}>
       <Title text={"~/idi-open"} />
-      <div className={styles.nextCompetition}>
-        <h3>Hva: IDI Open 2023</h3>
-        <h3>Dato: 24.April</h3>
-        <h3>Tidspunkt: 11:00-16:00</h3>
-        <h3>Hvor: Realfagbygget, NTNU Gløshaugen</h3>
-
-        {registrationOpen && <Button text="Registrer lag" />}
-      </div>
+      {/* The inputs below will be dynamic */}
+      <UpcomingCompetition
+        title="IDI Open 2023"
+        date="22.April"
+        time="11:00-16:00"
+        location="Realfagbygget, NTNU Gløshaugen"
+        registrationButton={registrationOpen}
+        buttonText="Registrer lag"
+      />
 
       <div className={styles.description}>
         <div className={styles.logo}>

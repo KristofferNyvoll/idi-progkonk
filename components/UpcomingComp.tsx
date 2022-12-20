@@ -6,7 +6,7 @@ interface CompetitionProps {
   date: string;
   time: string;
   location: string;
-  registrationButton?: JSX.Element;
+  registrationButton?: boolean;
   buttonText?: string;
 }
 

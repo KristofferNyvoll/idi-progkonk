@@ -2,7 +2,7 @@ import Title from "../components/Title";
 import styles from "../styles/pages.module.css";
 // import Image from "next/image";
 
-export default function OmOss() {
+export default function About() {
   return (
     <section className={styles.section}>
       <Title text={"~/om-oss"} />

@@ -19,8 +19,8 @@ export default function NCPC() {
       <div className={styles.description}>
         <div className={styles.logo}>
           <Image
-            src="/idi_open_logo.jpg"
-            alt="IDI Open Logo"
+            src="/icpc-logo.png"
+            alt="ICPC Logo"
             className={styles.idiopenLogo}
             width={300}
             height={300}

@@ -49,5 +49,9 @@
 
 /* components/RegistrationForm  */
 .registrationForm {
-  @apply bg-slate-200;
+  @apply min-h-screen bg-slate-200 text-center;
+}
+
+.form {
+  @apply min-h-screen flex flex-col items-center;
 }

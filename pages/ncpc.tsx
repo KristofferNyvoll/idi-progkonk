@@ -1,6 +1,6 @@
 import Title from "../components/Title";
 import UpcomingCompetition from "../components/UpcomingComp";
-import styles from "../styles/pages.module.css";
+import styles from "../styles/styling.module.css";
 import Image from "next/image";
 
 export default function NCPC() {

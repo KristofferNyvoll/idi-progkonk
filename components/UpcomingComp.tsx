@@ -1,4 +1,4 @@
-import styles from "../styles/pages.module.css";
+import styles from "../styles/styling.module.css";
 import Button from "./Button";
 
 interface CompetitionProps {

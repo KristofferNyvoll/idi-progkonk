@@ -1,0 +1,53 @@
+/* pages/  */
+
+.section {
+  @apply min-h-screen items-center bg-white;
+}
+
+.description {
+  @apply flex flex-row min-h-2/5 p-12;
+  /* flex-flow: column wrap; */
+}
+
+.logo {
+  @apply w-2/5;
+}
+
+.descriptionText {
+  @apply w-1/2 pt-12 pr-4;
+}
+
+.nextCompetition {
+  @apply bg-slate-100 px-20 py-8;
+}
+
+.nextCompetition h3 {
+  @apply mb-4;
+}
+
+.descriptionText h2 {
+  @apply font-bold text-xl pb-4;
+}
+
+/* components/Title  */
+.title {
+  @apply pt-8 pb-8 pl-20 font-extrabold text-3xl;
+}
+
+/* components/Button  */
+.button {
+  @apply bg-white border-2 border-black rounded-lg py-3 px-6 box-border text-gray-900 cursor-pointer inline-block text-base font-semibold leading-5 m-0 relative text-center no-underline select-none w-auto;
+}
+
+.button:active {
+  @apply bg-gray-100 border-black scale-95;
+}
+
+.button:disabled {
+  @apply border-gray-400 text-gray-400 cursor-not-allowed opacity-100;
+}
+
+/* components/RegistrationForm  */
+.registrationForm {
+  @apply bg-slate-200;
+}

@@ -47,8 +47,11 @@ export default function IDIOpen() {
         {registrationOpen ? (
           <RegistrationForm />
         ) : (
-          <div>
-            <p>Påmeldingen for neste konkurranse har ikke åpnet ennå</p>
+          <div className={styles.placeholder}>
+            <p>
+              Påmeldingen for neste konkurranse åpner&nbsp;
+              <code className={styles.code}>01.03.2023</code>
+            </p>
           </div>
         )}
       </div>

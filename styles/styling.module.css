@@ -29,6 +29,25 @@
   @apply font-bold text-xl pb-4;
 }
 
+.registration {
+  @apply items-center text-center p-8 bg-white;
+}
+
+.placeholder {
+  /* @apply m-0 p-4 font-mono  */
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  font-family: var(--font-mono);
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
 /* components/Title  */
 .title {
   @apply pt-8 pb-8 pl-20 font-extrabold text-3xl;
@@ -49,9 +68,9 @@
 
 /* components/RegistrationForm  */
 .registrationForm {
-  @apply min-h-screen bg-slate-200 text-center;
+  @apply min-h-screen bg-slate-200 text-center p-8;
 }
 
 .form {
-  @apply min-h-screen flex flex-col items-center;
+  @apply min-h-screen bg-white border-4 border-black flex flex-col items-center;
 }
